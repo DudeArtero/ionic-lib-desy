@@ -9,8 +9,10 @@
     "downlevelIteration": true,
     "paths": {
       "ionic-desy": [
-        "dist/ionic-desy/ionic-desy",
-        "dist/ionic-desy"
+        "projects/ionic-desy/src/public-api"
+      ],
+      "ionic-desy/*": [
+        "projects/ionic-desy/src/public-api"
       ]
     },
     "experimentalDecorators": true,

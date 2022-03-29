@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:ionic-desy": "ng build ionic-desy --configuration production",
+    "pack_desy": "cd dist/ionic-desy && npm pack"
   },
   "private": true,
   "dependencies": {
