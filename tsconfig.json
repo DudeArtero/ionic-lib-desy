@@ -13,7 +13,8 @@
       ],
       "ionic-desy/*": [
         "projects/ionic-desy/src/public-api"
-      ]
+      ],
+      "@angular/*": ["./node_modules/@angular/*"]
     },
     "experimentalDecorators": true,
     "moduleResolution": "node",

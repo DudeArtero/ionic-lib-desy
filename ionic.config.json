@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "playgroundionic": {
+      "name": "playgroundionic",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "angular",
+      "root": "projects\\playgroundionic"
+    }
+  }
+}
