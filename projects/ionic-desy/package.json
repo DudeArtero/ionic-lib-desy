@@ -2,10 +2,14 @@
   "name": "ionic-desy",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^13.3.0",
-    "@angular/core": "^13.3.0"
+    "@angular/common": "^13.2.2",
+    "@angular/core": "^13.2.2",
+    "@ionic/angular": "^6.1.1"
   },
   "dependencies": {
     "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@ionic/angular": "^6.1.1"
   }
 }

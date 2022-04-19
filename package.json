@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-idesy": "ng build ionic-desy --watch",
+    "start-playground": "cd playground && ionic serve",
+    "pack-idesy": "cd dist/ionic-desy && npm pack"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +21,7 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@ionic/angular": "^6.1.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
