@@ -1,0 +1,908 @@
+{
+    "pipes": [],
+    "interfaces": [
+        {
+            "name": "User",
+            "id": "interface-User-9c7e5f1bbbab702cb032307d130876cb68969b0cd4eedef32a0c8cad8081a54e5f8f577ed6ad4539c1b99a1d246cb34031d198c2ea8eba440e64e91b14f01fdc",
+            "file": "stories/User.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface User {}\n",
+            "properties": [],
+            "indexSignatures": [],
+            "methods": []
+        }
+    ],
+    "injectables": [],
+    "guards": [],
+    "interceptors": [],
+    "classes": [
+        {
+            "name": "AppPage",
+            "id": "class-AppPage-a5105879deac7e368f9bf59540f1b18fd386971bc63151d5c7a809856cd94eee7d4b70f4fac7cf6ae57328a1d6237586477642baae18206fb52bbe23a545bad8",
+            "file": "playground/e2e/src/app.po.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "class",
+            "sourceCode": "import { browser, by, element } from 'protractor';\r\n\r\nexport class AppPage {\r\n  navigateTo() {\r\n    return browser.get('/');\r\n  }\r\n\r\n  getParagraphText() {\r\n    return element(by.deepCss('app-root ion-content')).getText();\r\n  }\r\n}\r\n",
+            "properties": [],
+            "methods": [
+                {
+                    "name": "getParagraphText",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 8,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "navigateTo",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 4,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "indexSignatures": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "hostBindings": [],
+            "hostListeners": []
+        }
+    ],
+    "directives": [],
+    "components": [
+        {
+            "name": "AppComponent",
+            "id": "component-AppComponent-8ae9dc82201b36b0bbc80ecbd1d47e6d64b4c6354741843619758abad0d7820db6d433ce99f56a47c8dbcbcb0301871ae3533641cab10eee0b1774cb168a0537",
+            "file": "playground/src/app/app.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-root",
+            "styleUrls": [
+                "app.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "app.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n  templateUrl: 'app.component.html',\r\n  styleUrls: ['app.component.scss'],\r\n})\r\nexport class AppComponent {\r\n  constructor() {}\r\n}\r\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "app.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "templateData": "<ion-app>\r\n  <ion-router-outlet></ion-router-outlet>\r\n</ion-app>\r\n"
+        },
+        {
+            "name": "HomePage",
+            "id": "component-HomePage-92dc0bdb5c0b7f5e7984eb59f9b79e5ee0ebd72a003028ebdcb58802fdb5c7f9e123ce21e753488209cb52f76ccbf9cff919315d20bb64c3271230cbba4a3e34",
+            "file": "playground/src/app/home/home.page.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-home",
+            "styleUrls": [
+                "home.page.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "home.page.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-home',\r\n  templateUrl: 'home.page.html',\r\n  styleUrls: ['home.page.scss'],\r\n})\r\nexport class HomePage {\r\n\r\n  constructor() {}\r\n\r\n}\r\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "#container {\r\n  text-align: center;\r\n\r\n  position: absolute;\r\n  left: 0;\r\n  right: 0;\r\n  top: 50%;\r\n  transform: translateY(-50%);\r\n}\r\n\r\n#container strong {\r\n  font-size: 20px;\r\n  line-height: 26px;\r\n}\r\n\r\n#container p {\r\n  font-size: 16px;\r\n  line-height: 22px;\r\n\r\n  color: #8c8c8c;\r\n\r\n  margin: 0;\r\n}\r\n\r\n#container a {\r\n  text-decoration: none;\r\n}",
+                    "styleUrl": "home.page.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "templateData": "<idesy-button value=\"Guardar\"></idesy-button>\r\n<idesy-badge value=\"999\"></idesy-badge>"
+        },
+        {
+            "name": "IDesyBadgeComponent",
+            "id": "component-IDesyBadgeComponent-b14ed11f5c0f9e17a8ce67b9edec0a105eeb9686e68211e29ddd38bc2b7e81614401a991876e0aba15502e7de07aa7e870e09a46e483766149822a73d200f884",
+            "file": "projects/ionic-desy/src/lib/components/idesy-badge/idesy-badge.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "idesy-badge",
+            "styleUrls": [
+                "./idesy-badge.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./idesy-badge.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "value",
+                    "defaultValue": "\"\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 12,
+                    "type": "string",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 16,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { CommonModule } from '@angular/common';\r\nimport { Component, Input, NgModule, OnInit } from '@angular/core';\r\nimport { IonicModule } from '@ionic/angular';\r\n\r\n@Component({\r\n    selector: 'idesy-badge',\r\n    templateUrl: './idesy-badge.component.html',\r\n    styleUrls: ['./idesy-badge.component.css']\r\n})\r\nexport class IDesyBadgeComponent implements OnInit {\r\n\r\n    @Input() value: string  = \"\";\r\n\r\n    constructor() { }\r\n\r\n    ngOnInit(): void {\r\n    }\r\n\r\n}\r\n\r\n@NgModule({\r\n    declarations: [\r\n        IDesyBadgeComponent\r\n    ],\r\n    imports: [\r\n        CommonModule,\r\n        IonicModule\r\n    ],\r\n    exports: [\r\n        IDesyBadgeComponent\r\n    ]\r\n})\r\nexport class IDesyBadgeModule { }",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./idesy-badge.component.css"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 12
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<ion-badge>{{value}}</ion-badge>"
+        },
+        {
+            "name": "IDesyButtonComponent",
+            "id": "component-IDesyButtonComponent-27972bc81dbd915098b6b8ce082601f8c35a05af3205e71426b7344df2ad21b9bc303e0fc74705235f4b179d0bd4f716998059acc01f3413d2cccc93ec8f7931",
+            "file": "projects/ionic-desy/src/lib/components/idesy-button/idesy-button.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "idesy-button",
+            "styleUrls": [
+                "./idesy-button.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./idesy-button.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "value",
+                    "defaultValue": "\"\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 12,
+                    "type": "string",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 16,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { CommonModule } from '@angular/common';\r\nimport { Component, Input, NgModule, OnInit } from '@angular/core';\r\nimport { IonicModule } from '@ionic/angular';\r\n\r\n@Component({\r\n    selector: 'idesy-button',\r\n    templateUrl: './idesy-button.component.html',\r\n    styleUrls: ['./idesy-button.component.css']\r\n})\r\nexport class IDesyButtonComponent implements OnInit {\r\n\r\n    @Input() value: string  = \"\";\r\n\r\n    constructor() { }\r\n\r\n    ngOnInit(): void {\r\n    }\r\n\r\n}\r\n\r\n@NgModule({\r\n    declarations: [\r\n        IDesyButtonComponent\r\n    ],\r\n    imports: [\r\n        CommonModule,\r\n        IonicModule\r\n    ],\r\n    exports: [\r\n        IDesyButtonComponent\r\n    ]\r\n})\r\nexport class IDesyButtonModule { }",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./idesy-button.component.css"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 12
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<ion-button>{{value}}</ion-button>"
+        }
+    ],
+    "modules": [
+        {
+            "name": "AppModule",
+            "id": "module-AppModule-4def2e25ac51c236fa4c021ca6d293ae6afc7157d4dcdf5aedf497f7d283938e933bd63cc1fbb2741b246a33a9071609f9330c2323aadab36f76a0963cda1df9",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "playground/src/app/app.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\nimport { RouteReuseStrategy } from '@angular/router';\r\n\r\nimport { IonicModule, IonicRouteStrategy } from '@ionic/angular';\r\n\r\nimport { AppComponent } from './app.component';\r\nimport { AppRoutingModule } from './app-routing.module';\r\n\r\n@NgModule({\r\n  declarations: [AppComponent],\r\n  entryComponents: [],\r\n  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],\r\n  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],\r\n  bootstrap: [AppComponent],\r\n})\r\nexport class AppModule {}\r\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "AppRoutingModule"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "AppRoutingModule",
+            "id": "module-AppRoutingModule-4c2b39f4518db3f0518fe2735c19e06573dbd33a2627361512aa388e80065d3021d3a94a06f5caaa8b217443ca6a599cc952cf0eab19a2d49e6724d55b348baf",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "playground/src/app/app-routing.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { PreloadAllModules, RouterModule, Routes } from '@angular/router';\r\n\r\nconst routes: Routes = [\r\n  {\r\n    path: 'home',\r\n    loadChildren: () => \"import('./home/home.module').then( m => m.HomePageModule)\"\r\n  },\r\n  {\r\n    path: '',\r\n    redirectTo: 'home',\r\n    pathMatch: 'full'\r\n  },\r\n];\r\n\r\n@NgModule({\r\n  imports: [\r\n    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })\r\n  ],\r\n  exports: [RouterModule]\r\n})\r\nexport class AppRoutingModule { }\r\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "HomePageModule",
+            "id": "module-HomePageModule-fc8d13271907d95ab31a697632f942fd5fbf3d4bb8223b238062588fd03e52afd960a6e374cc024b16965d42805354002bab0f69e560eed168c240d320314264",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "playground/src/app/home/home.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { IonicModule } from '@ionic/angular';\r\nimport { FormsModule } from '@angular/forms';\r\nimport { HomePage } from './home.page';\r\nimport { IDesyButtonModule, IDesyBadgeModule } from 'ionic-desy';\r\nimport { HomePageRoutingModule } from './home-routing.module';\r\n\r\n\r\n@NgModule({\r\n  imports: [\r\n    CommonModule,\r\n    FormsModule,\r\n    IonicModule,\r\n    HomePageRoutingModule,\r\n    IDesyButtonModule,\r\n    IDesyBadgeModule\r\n  ],\r\n  declarations: [HomePage]\r\n})\r\nexport class HomePageModule {}\r\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "HomePage"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "HomePageRoutingModule"
+                        },
+                        {
+                            "name": "IDesyBadgeModule"
+                        },
+                        {
+                            "name": "IDesyButtonModule"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "HomePageRoutingModule",
+            "id": "module-HomePageRoutingModule-34a88cd00a93a1098a937822a341160c5ded7e9fd213a56b0c205614eba64352295cdc9ee4c8f297dbcf32c44b2b06918583f7030862c026c683b525cd429441",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "playground/src/app/home/home-routing.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { HomePage } from './home.page';\r\n\r\nconst routes: Routes = [\r\n  {\r\n    path: '',\r\n    component: HomePage,\r\n  }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forChild(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class HomePageRoutingModule {}\r\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "IDesyBadgeModule",
+            "id": "module-IDesyBadgeModule-b14ed11f5c0f9e17a8ce67b9edec0a105eeb9686e68211e29ddd38bc2b7e81614401a991876e0aba15502e7de07aa7e870e09a46e483766149822a73d200f884",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "projects/ionic-desy/src/lib/components/idesy-badge/idesy-badge.ts",
+            "methods": [],
+            "sourceCode": "import { CommonModule } from '@angular/common';\r\nimport { Component, Input, NgModule, OnInit } from '@angular/core';\r\nimport { IonicModule } from '@ionic/angular';\r\n\r\n@Component({\r\n    selector: 'idesy-badge',\r\n    templateUrl: './idesy-badge.component.html',\r\n    styleUrls: ['./idesy-badge.component.css']\r\n})\r\nexport class IDesyBadgeComponent implements OnInit {\r\n\r\n    @Input() value: string  = \"\";\r\n\r\n    constructor() { }\r\n\r\n    ngOnInit(): void {\r\n    }\r\n\r\n}\r\n\r\n@NgModule({\r\n    declarations: [\r\n        IDesyBadgeComponent\r\n    ],\r\n    imports: [\r\n        CommonModule,\r\n        IonicModule\r\n    ],\r\n    exports: [\r\n        IDesyBadgeComponent\r\n    ]\r\n})\r\nexport class IDesyBadgeModule { }",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "IDesyBadgeComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "IDesyBadgeComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "IDesyButtonModule",
+            "id": "module-IDesyButtonModule-27972bc81dbd915098b6b8ce082601f8c35a05af3205e71426b7344df2ad21b9bc303e0fc74705235f4b179d0bd4f716998059acc01f3413d2cccc93ec8f7931",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "projects/ionic-desy/src/lib/components/idesy-button/idesy-button.ts",
+            "methods": [],
+            "sourceCode": "import { CommonModule } from '@angular/common';\r\nimport { Component, Input, NgModule, OnInit } from '@angular/core';\r\nimport { IonicModule } from '@ionic/angular';\r\n\r\n@Component({\r\n    selector: 'idesy-button',\r\n    templateUrl: './idesy-button.component.html',\r\n    styleUrls: ['./idesy-button.component.css']\r\n})\r\nexport class IDesyButtonComponent implements OnInit {\r\n\r\n    @Input() value: string  = \"\";\r\n\r\n    constructor() { }\r\n\r\n    ngOnInit(): void {\r\n    }\r\n\r\n}\r\n\r\n@NgModule({\r\n    declarations: [\r\n        IDesyButtonComponent\r\n    ],\r\n    imports: [\r\n        CommonModule,\r\n        IonicModule\r\n    ],\r\n    exports: [\r\n        IDesyButtonComponent\r\n    ]\r\n})\r\nexport class IDesyButtonModule { }",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "IDesyButtonComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "IDesyButtonComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        }
+    ],
+    "miscellaneous": {
+        "variables": [
+            {
+                "name": "config",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "playground/capacitor.config.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "CapacitorConfig",
+                "defaultValue": "{\r\n  appId: 'io.ionic.starter',\r\n  appName: 'playground',\r\n  webDir: 'www',\r\n  bundledWebRuntime: false\r\n}"
+            },
+            {
+                "name": "context",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "playground/src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "playground/src/environments/environment.prod.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\r\n  production: true\r\n}"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "playground/src/environments/environment.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\r\n  production: false\r\n}"
+            },
+            {
+                "name": "Primary",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "stories/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "require",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "playground/src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "literal type"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "stories/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<IDesyButtonComponent>",
+                "defaultValue": "(args: IDesyButtonComponent) => ({\n  props: args,\n})"
+            }
+        ],
+        "functions": [],
+        "typealiases": [],
+        "enumerations": [],
+        "groupedVariables": {
+            "playground/capacitor.config.ts": [
+                {
+                    "name": "config",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "playground/capacitor.config.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "CapacitorConfig",
+                    "defaultValue": "{\r\n  appId: 'io.ionic.starter',\r\n  appName: 'playground',\r\n  webDir: 'www',\r\n  bundledWebRuntime: false\r\n}"
+                }
+            ],
+            "playground/src/test.ts": [
+                {
+                    "name": "context",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "playground/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+                },
+                {
+                    "name": "require",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "playground/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "literal type"
+                }
+            ],
+            "playground/src/environments/environment.prod.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "playground/src/environments/environment.prod.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\r\n  production: true\r\n}"
+                }
+            ],
+            "playground/src/environments/environment.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "playground/src/environments/environment.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\r\n  production: false\r\n}"
+                }
+            ],
+            "stories/Button.stories.ts": [
+                {
+                    "name": "Primary",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "stories/Button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "stories/Button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<IDesyButtonComponent>",
+                    "defaultValue": "(args: IDesyButtonComponent) => ({\n  props: args,\n})"
+                }
+            ]
+        },
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {}
+    },
+    "routes": {
+        "name": "<root>",
+        "kind": "module",
+        "className": "AppModule",
+        "children": [
+            {
+                "name": "routes",
+                "filename": "playground/src/app/app-routing.module.ts",
+                "module": "AppRoutingModule",
+                "children": [
+                    {
+                        "path": "home",
+                        "loadChildren": "./home/home.module#HomePageModule",
+                        "children": [
+                            {
+                                "kind": "module",
+                                "children": [
+                                    {
+                                        "name": "routes",
+                                        "filename": "playground/src/app/home/home-routing.module.ts",
+                                        "module": "HomePageRoutingModule",
+                                        "children": [
+                                            {
+                                                "path": "",
+                                                "component": "HomePage"
+                                            }
+                                        ],
+                                        "kind": "module"
+                                    }
+                                ],
+                                "module": "HomePageModule"
+                            }
+                        ]
+                    },
+                    {
+                        "path": "",
+                        "redirectTo": "home",
+                        "pathMatch": "full"
+                    }
+                ],
+                "kind": "module"
+            }
+        ]
+    },
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "playground/capacitor.config.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "config",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "playground/e2e/src/app.po.ts",
+                "type": "class",
+                "linktype": "classe",
+                "name": "AppPage",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "playground/src/app/app.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "AppComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "playground/src/app/home/home.page.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "HomePage",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "playground/src/environments/environment.prod.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "environment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "playground/src/environments/environment.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "environment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "playground/src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "context",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "playground/src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "require",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/ionic-desy/src/lib/components/idesy-badge/idesy-badge.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "IDesyBadgeComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/ionic-desy/src/lib/components/idesy-button/idesy-button.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "IDesyButtonComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "stories/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Primary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "stories/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "stories/User.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "User",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            }
+        ]
+    }
+}
